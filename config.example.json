@@ -1,0 +1,12 @@
+{
+  "databaseName": "YOUR_DATABASE",
+  "server": "HOSTNAME\\SQLINSTANCE",
+  "authType": "sql",
+  "sqlUser": "backup_user",
+  "backupFolder": "C:\\Backups\\YOUR_DATABASE",
+  "logFile": "C:\\Backups\\YOUR_DATABASE\\backup_log.txt",
+  "ftpServers": [
+    { "Host": "ftp.example.com", "Port": 21 }
+  ],
+  "remotePath": "/backups/YOUR_DATABASE"
+}
